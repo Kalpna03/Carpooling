@@ -1,0 +1,99 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; 
+  background-color: #f0f0f0; 
+}
+.box-with-circular-ends {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); 
+  width: 300px; 
+  padding: 20px; 
+  background-color: #f0f0f0; 
+  border-radius: 20px; 
+  z-index: 1; 
+}
+
+.container {
+  position: relative; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+
+
+.box-with-circular-ends {
+  position: fixed;
+  top: 50%;
+  left: 200px;
+
+
+
+  transform: translate(-50%, -50%); 
+  width: 300px; 
+  padding: 20px; 
+  background-color:azure; 
+  border-radius: 20px; 
+  z-index: 1; 
+}
+
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  max-width: 300px; 
+  padding: 2rem;
+  box-sizing: border-box;
+  background-color: white;
+  border-radius: 10px; 
+  box-shadow: 0 0 10px rgba(19, 137, 96, 0.1); 
+  margin-right: 2rem; 
+}
+
+.pickup-location,
+.drop-location {
+  margin-bottom: 1rem;
+  width: 100%;
+  max-width: 300px; 
+}
+
+.pickup-location input,
+.drop-location input {
+  padding: 0.5rem;
+  width: 100%;
+}
+button {
+  background-color: black;
+  color: white; 
+  padding: 10px 20px; 
+  border: none; 
+  border-radius: 5px; 
+  cursor: pointer; 
+}
+
+button:hover {
+  background-color: darkgray; 
+}
+
+
+.map-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw; 
+  height: 200vh; 
+  z-index: 0; 
+  margin: 0;
+  padding: 0;
+}
